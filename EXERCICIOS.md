@@ -360,7 +360,7 @@ gcc -Wall -g src/ex4_copia.c -o ex4_copia
 
 ```bash
 # Verificar se a cópia foi perfeita
-diff dados/origem.txt dados/destino.txt
+difftxt dados/origem.txt dados/destino.
 
 # Se não houver saída, a cópia foi bem-sucedida!
 
